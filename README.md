@@ -56,6 +56,7 @@ python main.py
 ## 注意事项
 
 - 如果遇到TensorFlow相关错误，请确保正确安装了TensorFlow库
+- 注意所用到的python库版本（Tensorflow推荐版本：2.19.0）
 - 数据文件格式应为CSV，包含时间列和水位数据列
 - 分析结果将保存在`water_level_anomaly_results.csv`文件中
 
