@@ -85,10 +85,10 @@ def main():
         visualizer.plot_anomaly_detection(results)
         visualizer.plot_slow_change_anomalies(results)
         
-        #print("\n10. 处理报警")
+        print("\n10. 处理报警")
         # 报警处理
-        #alert_manager = AlertManager()
-        #alert_manager.process_results(results)
+        alert_manager = AlertManager()
+        alert_manager.process_results(results)
         
         # 保存结果
         results.to_csv(results_file, index=False)
